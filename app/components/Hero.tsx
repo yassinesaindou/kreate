@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="px-4 md:px-8 lg:px-16 mt-32 mb-24">
       <Meteors className="text-blue-200" />
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+        <h1 className="text-3xl text-gray-900 sm:text-4xl lg:text-5xl font-bold leading-tight">
           We Build Stunning Websites, Apps, and Digital Experiences
         </h1>
         <p className="mt-4 text-base sm:text-lg text-gray-600">
