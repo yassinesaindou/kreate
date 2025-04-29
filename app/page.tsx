@@ -9,12 +9,12 @@ import Techologies from "./components/Techologies";
 export default function Home() {
   return (
     <div className="max-w-[1140px] mx-auto px-4">
-      {/* <Hero />
+      <Hero />
       <Services />
       <Industries />
       <Partnership />
       <Techologies />
-      <FAQ /> */}
+      <FAQ />
       <Contact />
     </div>
   );
