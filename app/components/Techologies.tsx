@@ -49,20 +49,21 @@ export default function Technologies() {
         <TabsList className="flex flex-wrap justify-center gap-4">
           <TabsTrigger
             value="frontend"
-            className="text-xl font-semibold text-gray-700 p-2 data-[state=active]:text-blue-600">
+            className="text-lg md:text-xl font-semibold text-gray-700 p-2 data-[state=active]:text-blue-600">
             Frontend
           </TabsTrigger>
           <TabsTrigger
             value="backend"
-            className="text-xl font-semibold text-gray-700 p-2 data-[state=active]:text-blue-600">
+            className="text-lg md:text-xl font-semibold text-gray-700 p-2 data-[state=active]:text-blue-600">
             Backend
           </TabsTrigger>
           <TabsTrigger
             value="other"
-            className="text-xl font-semibold text-gray-700 p-2 data-[state=active]:text-blue-600">
-            Other Tools
+            className="text-lg md:text-xl font-semibold text-gray-700 p-2 data-[state=active]:text-blue-600">
+            Others
           </TabsTrigger>
         </TabsList>
+        
 
         <TabsContent
           value="frontend"

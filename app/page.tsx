@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
 import Hero from "./components/Hero";
 import Industries from "./components/Industries";
@@ -11,9 +12,10 @@ export default function Home() {
       {/* <Hero />
       <Services />
       <Industries />
-      <Partnership /> */}
+      <Partnership />
       <Techologies />
-      <FAQ />
+      <FAQ /> */}
+      <Contact />
     </div>
   );
 }
