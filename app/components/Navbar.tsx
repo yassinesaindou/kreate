@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="py-3 px-6 md:px-8 border-b flex items-center justify-between">
+    <nav className="py-3 px-6 md:px-8 border-b flex items-center justify-between sticky top-0 bg-inherit z-50">
       <div className="text-2xl font-bold text-blue-600">Kreate</div>
 
       {/* Desktop Menu */}
