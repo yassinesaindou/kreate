@@ -7,7 +7,7 @@ export default function Hero() {
     <section id="home" className="px-4 md:px-8 lg:px-16 mt-32 mb-24 overflow-hidden">
       {/* <Meteors className="text-blue-200 max-w-full" /> */}
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
-        <h1 className="text-2xl md:text-3xl text-gray-900 sm:text-4xl lg:text-5xl font-bold leading-tight">
+        <h1 className="text-2xl  text-gray-900 md:text-4xl lg:text-5xl font-bold leading-tight">
           <SparklesText sparklesCount={15}>
             We <span className="text-blue-600">Build</span> Stunning Websites,
             Apps, and{" "}
