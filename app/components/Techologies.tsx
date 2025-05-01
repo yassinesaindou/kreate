@@ -63,7 +63,6 @@ export default function Technologies() {
             Others
           </TabsTrigger>
         </TabsList>
-        
 
         <TabsContent
           value="frontend"
@@ -115,7 +114,9 @@ function TechCard({ number, title, color = "blue" }: Props) {
       <p className="absolute bg-blue-50 px-2 py-1 rounded-full top-3 left-4 font-bold text-xl">
         {number}
       </p>
-      <p className="absolute bottom-4 left-4 text-xl font-semibold">{title}</p>
+      <p className="absolute bottom-4 left-4 text-lg md:text-xl font-semibold">
+        {title}
+      </p>
     </div>
   );
 }
