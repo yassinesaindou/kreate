@@ -2,7 +2,9 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section className="mb-20 text-center px-4 sm:px-6 md:px-12 lg:px-24">
+    <section
+      id="contact"
+      className="mb-20 text-center px-4 sm:px-6 md:px-12 lg:px-24">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-700">
         Let’s Build Something Amazing Together
       </h2>
@@ -47,12 +49,11 @@ export default function Contact() {
           <option value="App Design">App Design</option>
           <option value="Other">Other</option>
         </select>
-        
+
         <textarea
           name="entry.141412312"
           placeholder="Your Message (optional)"
           className="p-3 border border-gray-300 rounded-md col-span-1 sm:col-span-2 h-32 resize-none"
-          
         />
 
         <button

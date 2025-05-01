@@ -36,7 +36,7 @@ const others = [
 
 export default function Technologies() {
   return (
-    <section className="mb-20 text-center px-4">
+    <section className="mb-20 text-center px-4" id="technologies">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-700">
         Technologies We Work With
       </h2>

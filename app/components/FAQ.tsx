@@ -32,7 +32,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section className="text-center my-20 px-4 sm:px-6 md:px-12 lg:px-20 xl:px-32">
+    <section id="faq" className="text-center my-20 px-4 sm:px-6 md:px-12 lg:px-20 xl:px-32">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
         Frequently Asked Questions
       </h2>

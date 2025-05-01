@@ -35,7 +35,7 @@ const industryCards = [
 
 export default function Industries() {
   return (
-    <section className="text-center my-24 px-4 md:px-8 lg:px-16">
+    <section id="industries" className="text-center my-24 px-4 md:px-8 lg:px-16">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-700">
         Industries We Serve
       </h2>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <section className="text-center my-24 px-4 md:px-8 lg:px-16">
+    <section id="services"  className="text-center my-24 px-4 md:px-8 lg:px-16">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-700">
         Our Services
       </h2>

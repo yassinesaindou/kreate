@@ -27,7 +27,7 @@ const principles = [
 
 export default function Partnership() {
   return (
-    <section className="text-center mb-20 px-4 md:px-8 lg:px-16">
+    <section id="partnership" className="text-center mb-20 px-4 md:px-8 lg:px-16">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-700">
         Why Partner With Us?
       </h2>
