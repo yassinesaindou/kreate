@@ -8,12 +8,36 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:underline">Services</a></li>
-            <li><a href="#" className="hover:underline">Industries We Serve</a></li>
-            <li><a href="#" className="hover:underline">Why Should You Choose Us</a></li>
-            <li><a href="#" className="hover:underline">Technologies We Use</a></li>
-            <li><a href="#" className="hover:underline">FAQ’s</a></li>
-            <li><a href="#" className="hover:underline">Contact Us</a></li>
+            <li>
+              <a href="#services" className="hover:underline">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#industries" className="hover:underline">
+                Industries We Serve
+              </a>
+            </li>
+            <li>
+              <a href="#partnership" className="hover:underline">
+                Why Should You Choose Us
+              </a>
+            </li>
+            <li>
+              <a href="#technologies" className="hover:underline">
+                Technologies We Use
+              </a>
+            </li>
+            <li>
+              <a href="#faq" className="hover:underline">
+                FAQ’s
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:underline">
+                Contact Us
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -21,10 +45,26 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-3">Our Socials</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:underline">Facebook</a></li>
-            <li><a href="#" className="hover:underline">Instagram</a></li>
-            <li><a href="#" className="hover:underline">YouTube</a></li>
-            <li><a href="#" className="hover:underline">LinkedIn</a></li>
+            <li>
+              <a href="#" className="hover:underline">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                YouTube
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                LinkedIn
+              </a>
+            </li>
           </ul>
         </div>
 
